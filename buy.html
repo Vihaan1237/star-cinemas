@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Cinema App</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Buy Ticket</h1>
+        <center>
+            <button id="back" class="btn btn-danger" onclick="back()">Back To Choosing</button>
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <div class="form-group">
+            <h2 class="header2">BOOKING SUMMARY</h2>
+            <h4 class="header2">Seats- A1, A2, A3 (3 Seats)</h4>
+            <h4 class="header2">Cost- Rs 300</h4>
+            <h4 class="header2">Convenience fees- Rs 47.20</h4>
+            <h4 class="header2">Sub Total- Rs 347.20</h4>
+            <h4 class="header2">Tax- (1Rs per seat) added 2 Rs</h4>
+            <h4 class="header2">Sub Total- Rs 349.20</h4>
+            </div>
+            </div>
+            <br>
+            <br>
+            <h2 class="header">Discount Coupons</h2>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+                <h4 class="header2">
+            DS17HLK89
+            <br>
+            <br>
+            RGMALD93Sn180
+            <br>
+            <br>
+            mbbwi57fnvkw0
+            <br>
+            <br>
+            mvbei508vb46m
+            <br>
+            <br>
+            MRI4KV03MAM56
+            </h4>
+            <input type="text" id="code" class="from-control" placeholder="Enter The Discount Coupon Code">
+            </div>
+            <br>
+            <h3 class="header">Payment Methods</h3>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+        <h3 class="header2">CARD PAYMENT</h3>
+        <input type="text" id="code" class="from-control" placeholder="Enter Card Number">
+        <br>
+        <br>
+        <input type="text" id="code" class="from-control" placeholder="Enter Name On The Card">
+        <br>
+        <br>
+        <button id="cardpay" class="btn btn-danger" onclick="complete()">FINISH PAYEMNT</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="header2">UPI PAYMENT</h3>
+        <br>
+        <br>
+        <h4 class="header2">G Pay</h4>
+        <h4 class="header2">Paytm</h4>
+        <h4 class="header2">PhonePe</h4>
+        <h4 class="header2">Amazon Pay</h4>
+        <br>
+        <input type="text" id="code" class="from-control" placeholder="Enter The Upi Code">
+        <button id="cardpay" class="btn btn-danger" onclick="complete()">FINISH PAYEMNT</button>
+        </div>
+</center>
+    </body>
+</html>

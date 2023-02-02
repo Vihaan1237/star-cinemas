@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <title>Cinema App</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Select time</h1>
+        <br>
+        <br>
+
+        <center>
+            <button id="back" class="btn btn-danger" onclick="back()">Back To Choosing</button>
+            <br>
+            <br>
+            <br>
+            <h1 class="header">NORMAL Theatres</h1>
+            <h4 style="color:crimson;">Theatre Almost Full</h4>
+            <h4 style="color:darkgoldenrod;">Theatre Not Full</h4>
+            <h4 style="color:lawngreen;">Theatre Close To Empty</h4>
+            <h4 style="color:darkgrey;">Theatre Close To Full</h4>
+            <br>
+            <br>
+            <h3 class="header">Sunday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">10 : 00 AM</button>
+        <button id="time" class="btn btn-info" onclick="time()">12 : 00 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">4 : 00 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">11 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Monday</h3>
+        <button id="time" class="btn btn-success" onclick="time()">7 : 00 AM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">10 : 30 AM</button>
+        <button id="time" class="btn btn-danger" onclick="time()">2 : 15 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">6 : 45 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">10 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Tusday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">9 : 10 AM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">1 : 40 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">3 : 35 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">7 : 50 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">9 : 15 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Wednesday</h3>
+        <button id="time" class="btn btn-success" onclick="time()">6 : 30 AM</button>
+        <button id="time" class="btn btn-info" onclick="time()">10 : 01 AM</button>
+        <button id="time" class="btn btn-success" onclick="time()">4 : 00 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-danger" onclick="time()">11 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Thursday</h3>
+        <button id="time" class="btn btn-info" onclick="time()">11 : 05 AM</button>
+        <button id="time" class="btn btn-danger" onclick="time()">3 : 15 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">6 : 30 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">12 : 30 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Friday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">10 : 00 AM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">12 : 00 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">4 : 00 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">11 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Saturday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">3 : 05 AM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">6 : 10 AM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">9 : 15 AM</button>
+        <button id="time" class="btn btn-info" onclick="time()">12 : 20 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">3 : 25 PM</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <h1 class="header">VIP Theatres</h1>
+            <h4 style="color:crimson;">Theatre Almost Full</h4>
+            <h4 style="color:darkgoldenrod;">Theatre Not Full</h4>
+            <h4 style="color:lawngreen;">Theatre Close To Empty</h4>
+            <h4 style="color:darkgrey;">Theatre Close To Full</h4>
+            <br>
+            <h3 class="header">Sunday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">10 : 00 AM</button>
+        <button id="time" class="btn btn-info" onclick="time()">12 : 00 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">4 : 00 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">11 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Monday</h3>
+        <button id="time" class="btn btn-success" onclick="time()">7 : 00 AM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">10 : 30 AM</button>
+        <button id="time" class="btn btn-danger" onclick="time()">2 : 15 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">6 : 45 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">10 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Tusday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">9 : 10 AM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">1 : 40 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">3 : 35 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">7 : 50 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">9 : 15 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Wednesday</h3>
+        <button id="time" class="btn btn-success" onclick="time()">6 : 30 AM</button>
+        <button id="time" class="btn btn-info" onclick="time()">10 : 01 AM</button>
+        <button id="time" class="btn btn-success" onclick="time()">4 : 00 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-danger" onclick="time()">11 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Thursday</h3>
+        <button id="time" class="btn btn-info" onclick="time()">11 : 05 AM</button>
+        <button id="time" class="btn btn-danger" onclick="time()">3 : 15 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">6 : 30 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">12 : 30 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Friday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">10 : 00 AM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">12 : 00 PM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">4 : 00 PM</button>
+        <button id="time" class="btn btn-info" onclick="time()">9 : 00 PM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">11 : 00 PM</button>
+        <br>
+        <br>
+        <h3 class="header">Saturday</h3>
+        <button id="time" class="btn btn-danger" onclick="time()">3 : 05 AM</button>
+        <button id="time" class="btn btn-warning" onclick="time()">6 : 10 AM</button>
+        <button id="time" class="btn btn-secondary" onclick="time()">9 : 15 AM</button>
+        <button id="time" class="btn btn-info" onclick="time()">12 : 20 PM</button>
+        <button id="time" class="btn btn-success" onclick="time()">3 : 25 PM</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="header">PREMIUM Theatres</h1>
+        <h4 style="color:crimson;">Theatre Almost Full</h4>
+        <h4 style="color:darkgoldenrod;">Theatre Not Full</h4>
+        <h4 style="color:lawngreen;">Theatre Close To Empty</h4>
+        <h4 style="color:darkgrey;">Theatre Close To Full</h4>
+        <br>
+        <h3 class="header">Sunday</h3>
+    <button id="time" class="btn btn-danger" onclick="time()">10 : 00 AM</button>
+    <button id="time" class="btn btn-info" onclick="time()">12 : 00 PM</button>
+    <button id="time" class="btn btn-info" onclick="time()">4 : 00 PM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">9 : 00 PM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">11 : 00 PM</button>
+    <br>
+    <br>
+    <h3 class="header">Monday</h3>
+    <button id="time" class="btn btn-success" onclick="time()">7 : 00 AM</button>
+    <button id="time" class="btn btn-warning" onclick="time()">10 : 30 AM</button>
+    <button id="time" class="btn btn-danger" onclick="time()">2 : 15 PM</button>
+    <button id="time" class="btn btn-success" onclick="time()">6 : 45 PM</button>
+    <button id="time" class="btn btn-info" onclick="time()">10 : 00 PM</button>
+    <br>
+    <br>
+    <h3 class="header">Tusday</h3>
+    <button id="time" class="btn btn-danger" onclick="time()">9 : 10 AM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">1 : 40 PM</button>
+    <button id="time" class="btn btn-info" onclick="time()">3 : 35 PM</button>
+    <button id="time" class="btn btn-warning" onclick="time()">7 : 50 PM</button>
+    <button id="time" class="btn btn-success" onclick="time()">9 : 15 PM</button>
+    <br>
+    <br>
+    <h3 class="header">Wednesday</h3>
+    <button id="time" class="btn btn-success" onclick="time()">6 : 30 AM</button>
+    <button id="time" class="btn btn-info" onclick="time()">10 : 01 AM</button>
+    <button id="time" class="btn btn-success" onclick="time()">4 : 00 PM</button>
+    <button id="time" class="btn btn-warning" onclick="time()">9 : 00 PM</button>
+    <button id="time" class="btn btn-danger" onclick="time()">11 : 00 PM</button>
+    <br>
+    <br>
+    <h3 class="header">Thursday</h3>
+    <button id="time" class="btn btn-info" onclick="time()">11 : 05 AM</button>
+    <button id="time" class="btn btn-danger" onclick="time()">3 : 15 PM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">6 : 30 PM</button>
+    <button id="time" class="btn btn-warning" onclick="time()">9 : 00 PM</button>
+    <button id="time" class="btn btn-success" onclick="time()">12 : 30 PM</button>
+    <br>
+    <br>
+    <h3 class="header">Friday</h3>
+    <button id="time" class="btn btn-danger" onclick="time()">10 : 00 AM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">12 : 00 PM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">4 : 00 PM</button>
+    <button id="time" class="btn btn-info" onclick="time()">9 : 00 PM</button>
+    <button id="time" class="btn btn-warning" onclick="time()">11 : 00 PM</button>
+    <br>
+    <br>
+    <h3 class="header">Saturday</h3>
+    <button id="time" class="btn btn-danger" onclick="time()">3 : 05 AM</button>
+    <button id="time" class="btn btn-warning" onclick="time()">6 : 10 AM</button>
+    <button id="time" class="btn btn-secondary" onclick="time()">9 : 15 AM</button>
+    <button id="time" class="btn btn-info" onclick="time()">12 : 20 PM</button>
+    <button id="time" class="btn btn-success" onclick="time()">3 : 25 PM</button>
+        </center>
+    </body>
+</html>    
